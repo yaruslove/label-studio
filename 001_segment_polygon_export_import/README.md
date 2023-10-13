@@ -1,5 +1,7 @@
 ## Import pre anotated polygon-segmetaion into Label studio
 
+**Цель туториала:** *разметить данные на одном компьютере, направить их колеге и чтоб он смог открыть их у себя.*
+
 ### Установим label-studio
 
 ###Requires Python >=3.8
