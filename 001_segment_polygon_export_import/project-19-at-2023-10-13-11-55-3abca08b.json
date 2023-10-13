@@ -1,0 +1,462 @@
+[
+    {
+        "id": 10597,
+        "annotations": [
+            {
+                "id": 175,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 800,
+                        "original_height": 600,
+                        "image_rotation": 0,
+                        "value": {
+                            "points": [
+                                [
+                                    6.552262090483618,
+                                    70.67082683307332
+                                ],
+                                [
+                                    10.296411856474258,
+                                    80.49921996879876
+                                ],
+                                [
+                                    12.987519500780028,
+                                    84.24336973478938
+                                ],
+                                [
+                                    17.784711388455538,
+                                    87.20748829953197
+                                ],
+                                [
+                                    20.124804992199685,
+                                    88.29953198127926
+                                ],
+                                [
+                                    26.326053042121682,
+                                    90.6396255850234
+                                ],
+                                [
+                                    30.77223088923557,
+                                    91.41965678627145
+                                ],
+                                [
+                                    40.13260530421216,
+                                    90.95163806552262
+                                ],
+                                [
+                                    49.141965678627145,
+                                    85.95943837753511
+                                ],
+                                [
+                                    53.588143525741025,
+                                    82.68330733229328
+                                ],
+                                [
+                                    57.56630265210608,
+                                    77.84711388455538
+                                ],
+                                [
+                                    62.129485179407176,
+                                    68.48673946957878
+                                ],
+                                [
+                                    61.778471138845546,
+                                    61.77847113884556
+                                ],
+                                [
+                                    60.374414976599056,
+                                    50.23400936037441
+                                ],
+                                [
+                                    56.396255850234,
+                                    43.8377535101404
+                                ],
+                                [
+                                    50.31201248049921,
+                                    38.68954758190328
+                                ],
+                                [
+                                    42.82371294851794,
+                                    34.945397815912635
+                                ],
+                                [
+                                    35.218408736349446,
+                                    32.761310452418094
+                                ],
+                                [
+                                    27.145085803432135,
+                                    33.229329173166924
+                                ],
+                                [
+                                    23.868954758190323,
+                                    35.725429017160685
+                                ],
+                                [
+                                    15.327613104524179,
+                                    42.12168486739469
+                                ],
+                                [
+                                    10.413416536661465,
+                                    48.049921996879874
+                                ],
+                                [
+                                    6.1999303622004085,
+                                    56.47425897035882
+                                ]
+                            ],
+                            "closed": true,
+                            "polygonlabels": [
+                                "pizza"
+                            ]
+                        },
+                        "id": "gJ52arLdZx",
+                        "from_name": "label",
+                        "to_name": "image",
+                        "type": "polygonlabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2023-10-13T11:52:24.020347Z",
+                "updated_at": "2023-10-13T11:52:24.020361Z",
+                "draft_created_at": "2023-10-13T11:49:55.356273Z",
+                "lead_time": 152.938,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "f6e12393-d25f-4091-8370-48960cffdca2",
+                "import_id": null,
+                "last_action": null,
+                "task": 10597,
+                "project": 19,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/local-files\/?d=prepared_data\/001_preanotated_polygon_segmentaion\/001_pizza.jpg"
+        },
+        "meta": {},
+        "created_at": "2023-10-13T11:36:16.279645Z",
+        "updated_at": "2023-10-13T11:52:24.033148Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 19,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 10598,
+        "annotations": [
+            {
+                "id": 176,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 800,
+                        "original_height": 594,
+                        "image_rotation": 0,
+                        "value": {
+                            "points": [
+                                [
+                                    16.84210526315789,
+                                    71.04180203595408
+                                ],
+                                [
+                                    21.052631578947363,
+                                    81.12312205879456
+                                ],
+                                [
+                                    25.380116959064324,
+                                    85.53369956878728
+                                ],
+                                [
+                                    30.29239766081871,
+                                    90.57435958020751
+                                ],
+                                [
+                                    34.26900584795321,
+                                    94.03981333805895
+                                ],
+                                [
+                                    42.690058479532155,
+                                    98.13534959733788
+                                ],
+                                [
+                                    53.45029239766082,
+                                    99.39551460019295
+                                ],
+                                [
+                                    59.532163742690045,
+                                    98.60791147340854
+                                ],
+                                [
+                                    64.6783625730994,
+                                    96.2451020930553
+                                ],
+                                [
+                                    73.21637426900584,
+                                    90.25931832949375
+                                ],
+                                [
+                                    78.36257309941519,
+                                    79.23287455451197
+                                ],
+                                [
+                                    85.96491228070174,
+                                    62.220647015968645
+                                ],
+                                [
+                                    85.96491228070174,
+                                    43.00313072242896
+                                ],
+                                [
+                                    82.10526315789473,
+                                    25.51834130781499
+                                ],
+                                [
+                                    77.5438596491228,
+                                    14.964459408903853
+                                ],
+                                [
+                                    71.57894736842104,
+                                    8.191072518557897
+                                ],
+                                [
+                                    65.49707602339181,
+                                    3.938015633922066
+                                ],
+                                [
+                                    56.37426900584794,
+                                    1.2601650028550613
+                                ],
+                                [
+                                    40.935672514619874,
+                                    1.890247504282592
+                                ],
+                                [
+                                    31.228070175438592,
+                                    6.300825014275306
+                                ],
+                                [
+                                    24.678362573099413,
+                                    14.491897532833203
+                                ],
+                                [
+                                    16.95906432748538,
+                                    24.573217555673693
+                                ],
+                                [
+                                    12.514619883040934,
+                                    41.585445094217015
+                                ],
+                                [
+                                    12.748538011695903,
+                                    59.85783763561541
+                                ]
+                            ],
+                            "closed": true,
+                            "polygonlabels": [
+                                "pizza"
+                            ]
+                        },
+                        "id": "dQfIZwRlf1",
+                        "from_name": "label",
+                        "to_name": "image",
+                        "type": "polygonlabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2023-10-13T11:52:43.672115Z",
+                "updated_at": "2023-10-13T11:52:43.672129Z",
+                "draft_created_at": "2023-10-13T11:52:33.338312Z",
+                "lead_time": 18.043,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "d57fc29e-9159-41e5-a565-1de42a95d348",
+                "import_id": null,
+                "last_action": null,
+                "task": 10598,
+                "project": 19,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/local-files\/?d=prepared_data\/001_preanotated_polygon_segmentaion\/002_pizza.jpg"
+        },
+        "meta": {},
+        "created_at": "2023-10-13T11:36:16.288135Z",
+        "updated_at": "2023-10-13T11:52:43.686184Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 19,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 10599,
+        "annotations": [
+            {
+                "id": 177,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 839,
+                        "original_height": 599,
+                        "image_rotation": 0,
+                        "value": {
+                            "points": [
+                                [
+                                    11.821059418902285,
+                                    54.26229508196722
+                                ],
+                                [
+                                    13.108501533832237,
+                                    66.39344262295081
+                                ],
+                                [
+                                    18.492350378084762,
+                                    74.75409836065575
+                                ],
+                                [
+                                    24.812520760468164,
+                                    80.16393442622952
+                                ],
+                                [
+                                    31.015650950585204,
+                                    83.27868852459017
+                                ],
+                                [
+                                    37.21878114070225,
+                                    85.73770491803279
+                                ],
+                                [
+                                    42.017429023622974,
+                                    87.54098360655738
+                                ],
+                                [
+                                    58.98825690224506,
+                                    89.01639344262296
+                                ],
+                                [
+                                    64.84026651556303,
+                                    89.18032786885246
+                                ],
+                                [
+                                    75.37388381953537,
+                                    87.54098360655738
+                                ],
+                                [
+                                    81.5770140096524,
+                                    82.62295081967214
+                                ],
+                                [
+                                    90.23798823736298,
+                                    74.75409836065575
+                                ],
+                                [
+                                    93.39807342855468,
+                                    62.295081967213115
+                                ],
+                                [
+                                    88.71646573790032,
+                                    42.459016393442624
+                                ],
+                                [
+                                    81.10885324058697,
+                                    34.75409836065574
+                                ],
+                                [
+                                    69.05371343715197,
+                                    28.196721311475407
+                                ],
+                                [
+                                    34.29277633404326,
+                                    28.524590163934427
+                                ],
+                                [
+                                    24.578440375935443,
+                                    34.75409836065574
+                                ],
+                                [
+                                    15.91746614822486,
+                                    43.278688524590166
+                                ],
+                                [
+                                    13.225541726098596,
+                                    52.29508196721312
+                                ]
+                            ],
+                            "closed": true,
+                            "polygonlabels": [
+                                "pizza"
+                            ]
+                        },
+                        "id": "tHRiV3FTBU",
+                        "from_name": "label",
+                        "to_name": "image",
+                        "type": "polygonlabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2023-10-13T11:53:10.947608Z",
+                "updated_at": "2023-10-13T11:53:10.947623Z",
+                "draft_created_at": "2023-10-13T11:53:01.680299Z",
+                "lead_time": 21.145,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "0d6c99dc-35fd-40ae-b83b-85e33f106c0e",
+                "import_id": null,
+                "last_action": null,
+                "task": 10599,
+                "project": 19,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/local-files\/?d=prepared_data\/001_preanotated_polygon_segmentaion\/003_pizza.png"
+        },
+        "meta": {},
+        "created_at": "2023-10-13T11:36:43.290553Z",
+        "updated_at": "2023-10-13T11:53:10.961575Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 19,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
