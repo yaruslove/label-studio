@@ -1,0 +1,5 @@
+labelst_part_path: "/data/local-files/?d=data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
+pth_imgs: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
+
+weight_model: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/002_data_experiments/002_train_leaf_tomato/10_11_2023/best_leaf.pt"
+file_label_studio: 'project_label_studio.json'
