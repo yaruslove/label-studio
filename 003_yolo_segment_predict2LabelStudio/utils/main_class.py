@@ -29,6 +29,8 @@ class YoloSeg2LabelStudio:
         list_main_part = []
         
         for pth_img in os.listdir(pth_imgs):
+            if pth_img!="GX010038_17.jpg":
+                continue
             labelst_path = os.path.join(self.labelst_part_path, pth_img)
             pth_img_ful = os.path.join(pth_imgs,pth_img)
             image = cv2.imread(pth_img_ful)
@@ -41,7 +43,7 @@ class YoloSeg2LabelStudio:
 
             # inference model # TODO be attentive about retina_masks=True 
             retina_masks=True 
-            result=self.model(image, iou=0.2, conf=0.9, retina_masks=retina_masks )[0] # retina_masks=True
+            result=self.model(image, iou=0.35, conf=0.2, retina_masks=retina_masks )[0] # retina_masks=True
 
             # There are paddind, therefore we need to crop it
             if retina_masks==False: 
