@@ -1,0 +1,29 @@
+selected_images: ["GX010034_14.jpg",
+                 "GX010040_19.jpg",
+                 "GX010034_10.jpg",
+                 "GX010035_50.jpg",
+                 "GX010044_4.jpg",
+                 "GX010038_1.jpg",
+                 "GX010045_15.jpg",
+                 "GX010046_6.jpg",
+                 "GX010045_17.jpg",
+                 "GX010044_6.jpg",
+                 "GX010045_17.jpg",
+                 "GX010044_6.jpg",
+                 "GX010040_31.jpg",
+                 "GX010038_17.jpg",
+                 "GX010045_29.jpg",
+                 "GX010044_5.jpg",
+                 "GX010040_3.jpg",
+                 "GX010042_1.jpg",
+                 "GX010032_8.jpg"]
+
+# It is so important not forget point class background
+classes : { "leaf":0,
+            "stem":1,
+            "tomato":2,
+            "background":3}
+init_id: 2
+LS_json_path: /Users/YaVolkonskiy/Documents/Projects/tomato/data/001_raw_data/002_video_data_customer/002_labeled/labeled_Olga_Gelya_21_11_23/project-13-at-2023-11-21-11-39-a223ddf0.json
+path_image: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/001_raw_data/002_video_data_customer/002_labeled/selected_imgs/"
+path_savePickle: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/001_raw_data/002_video_data_customer/002_labeled/labeled_Olga_Gelya_21_11_23/panoptic_mask2former_uniqID_add_backgrd_SCRIPT.pickle"
