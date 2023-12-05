@@ -1,4 +1,4 @@
-## Panoptic segmentation in Hugging Face
+## Panoptic segmentation in Hugging Face mask2former
 
 ## Convert label-studio segmentation to panoptic segmentation 
 

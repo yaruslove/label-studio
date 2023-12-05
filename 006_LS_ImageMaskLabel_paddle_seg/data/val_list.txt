@@ -1,0 +1,7 @@
+JPEGImages/GX010023_55.jpg Annotations/GX010023_55.png
+JPEGImages/GX010044_5.jpg Annotations/GX010044_5.png
+JPEGImages/GX010023_34.jpg Annotations/GX010023_34.png
+JPEGImages/GX010028_70.jpg Annotations/GX010028_70.png
+JPEGImages/GX010025_60.jpg Annotations/GX010025_60.png
+JPEGImages/GX010046_6.jpg Annotations/GX010046_6.png
+JPEGImages/GX010034_14.jpg Annotations/GX010034_14.png
