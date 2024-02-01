@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2024-01-15T07:16:32.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="u7DPdW5vlnklfmpgmyfC" version="22.0.2" type="device">
+  <diagram name="Страница — 1" id="yDNq5AvWG5Lo8etMriSV">
+    <mxGraphModel dx="1242" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uEWREjTrofOkdbr8Ng4Y-1" value="Label Studio&lt;br&gt;Anotation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uEWREjTrofOkdbr8Ng4Y-2" value="Label Studio&lt;br&gt;ML backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uEWREjTrofOkdbr8Ng4Y-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.concordanalyticsllc.com/wp-content/uploads/2022/07/Docker-Symbol-2048x1152.png;" vertex="1" parent="1">
+          <mxGeometry x="147.22" y="180" width="175.56" height="98.75" as="geometry" />
+        </mxCell>
+        <mxCell id="uEWREjTrofOkdbr8Ng4Y-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.concordanalyticsllc.com/wp-content/uploads/2022/07/Docker-Symbol-2048x1152.png;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="175.56" height="98.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

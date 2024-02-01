@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  server:
+    container_name: server
+    image: humansignal/sam:v0
+    build:
+      context: .
+      shm_size: '4gb'
+    deploy:
+      resources:
+        limits:
+            memory: 8G
+        reservations:
+            memory: 4G
+            devices:
+              - driver: nvidia
+                count: 1
+                capabilities: [gpu]
+    environment:
+      # Change this to your model name
+      - SAM_CHOICE=MobileSAM
+      - LOG_LEVEL=DEBUG
+      # Add these variables if you want to access the images stored in Label Studio
+      - LABEL_STUDIO_HOST=http://172.20.3.2:4127/
+      - LABEL_STUDIO_ACCESS_TOKEN=ceff972db80f1fe8d16c13341ed8b96562aebbf0
+    ports:
+      - 9090:9090
+    volumes:
+      - "/docker/dockeruser/label-studio-cv:/data"
+            # - "./data/server:/data"
