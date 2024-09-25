@@ -16,8 +16,13 @@ def read_yaml():
 
 class YoloSeg2LabelStudio:
     def __init__(self, weight_model, labelst_part_path):
+        print(f"weight_model{weight_model}")
         self.model = YOLO(weight_model)
+        print(f"type self.model {type(self.model)}")
+        print(f"self.model {self.model}")
+
         self.classes = self.model.names
+
         # self.labelst_part_path = "/data/local-files/?d=data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
         self.labelst_part_path = labelst_part_path
 
@@ -29,13 +34,14 @@ class YoloSeg2LabelStudio:
         list_main_part = []
         
         for pth_img in os.listdir(pth_imgs):
-            if pth_img!="GX010038_17.jpg":
-                continue
+            # if pth_img!="GX010038_17.jpg":
+            #     continue
             labelst_path = os.path.join(self.labelst_part_path, pth_img)
             pth_img_ful = os.path.join(pth_imgs,pth_img)
             image = cv2.imread(pth_img_ful)
             h_orig,w_orig,_=image.shape
             resolution_label = (h_orig,w_orig)
+            print(f"resolution_label {resolution_label}")
 
             # Label studio json schema
             main_part=l.get_main(labelst_path)
@@ -68,10 +74,13 @@ class YoloSeg2LabelStudio:
                 
                 polyg = mask2polygon(mask_np)
                 # print(type(polyg))
+                # print(polyg)
+
                 if not type(polyg) == np.ndarray:
                     continue
                     
                 polyg=polyg_relatived(polyg, resolution_label)
+                print(f"unrelative polyg {polyg}")
                 # Fill json schema 
                 tmp_results = res.get_results(polyg, self.classes[cls], resolution_label)
                 anotation["result"].append(tmp_results)

@@ -1,0 +1,6 @@
+path_labels: "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/001_data/005_Разметка/001_Pool_detect_leaf_Сбер/001_Сбер_разметка_24_09_24/yolo_format_Сегментация кустов томатов_calibration"
+path_images: "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/001_data/005_Разметка/001_Pool_detect_leaf_Сбер/001_Сбер_разметка_24_09_24/imgs"
+
+labelst_part_path: "/data/local-files/?d=data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
+file_label_studio: 'project_label_studio.json'
+
