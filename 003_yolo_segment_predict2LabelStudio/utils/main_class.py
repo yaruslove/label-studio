@@ -16,10 +16,8 @@ def read_yaml():
 
 class YoloSeg2LabelStudio:
     def __init__(self, weight_model, labelst_part_path):
-        print(f"weight_model{weight_model}")
         self.model = YOLO(weight_model)
-        print(f"type self.model {type(self.model)}")
-        print(f"self.model {self.model}")
+
 
         self.classes = self.model.names
 
@@ -41,7 +39,6 @@ class YoloSeg2LabelStudio:
             image = cv2.imread(pth_img_ful)
             h_orig,w_orig,_=image.shape
             resolution_label = (h_orig,w_orig)
-            print(f"resolution_label {resolution_label}")
 
             # Label studio json schema
             main_part=l.get_main(labelst_path)
@@ -56,7 +53,6 @@ class YoloSeg2LabelStudio:
                 fnz,lnz =slice_non_zero(result.masks.data) # # TODO uncoment insted prevuios string
                 # fnz,lnz =  12,371 #  slice_non_zero(result.masks.data) # TODO check
                 val_crop=(fnz,lnz)
-                print(f"val_crop {val_crop}")
             
 
             amount_masks=len(result.masks.data)
@@ -73,14 +69,12 @@ class YoloSeg2LabelStudio:
                 mask_np = resize_mask(mask_np, result)
                 
                 polyg = mask2polygon(mask_np)
-                # print(type(polyg))
-                # print(polyg)
+
 
                 if not type(polyg) == np.ndarray:
                     continue
                     
                 polyg=polyg_relatived(polyg, resolution_label)
-                print(f"unrelative polyg {polyg}")
                 # Fill json schema 
                 tmp_results = res.get_results(polyg, self.classes[cls], resolution_label)
                 anotation["result"].append(tmp_results)

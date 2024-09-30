@@ -1,5 +1,5 @@
 labelst_part_path: "/data/local-files/?d=data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
-pth_imgs: "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/001_data/005_Разметка/001_Pool_detect_leaf_Сбер/001_Сбер_разметка_24_09_24/imgs/"
+pth_imgs: "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/001_data/005_Разметка/001_Pool_detect_leaf_Сбер/002_Gelya_Olga_detection_26_09_24/tomato_2_Gelya"
 
 # weight_model: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/002_data_experiments/002_train_leaf_tomato/10_11_2023/best_leaf.pt"
 weight_model : "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/002_train_models/003_train_leaf_tomat_det_seg/002_train_results/weights/best.pt"

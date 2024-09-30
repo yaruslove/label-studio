@@ -6,7 +6,6 @@ import glob
 # from ultralytics import YOLO
 
 from utils.schem_label_studio import Lab_studio_main, Annotation, Result
-
 from utils.cv_tools import iter_items, get_resolution
 
 
@@ -50,3 +49,5 @@ class YoloSeg2LabelStudio:
             list_main_part.append(main_part)
 
         return list_main_part
+    
+
