@@ -1,0 +1,8 @@
+paths:
+  image_dir: "/home/jovyan/anurov/full pipe/crop container/labelling/test_script/images" # путь к изображениям
+  labels_dir: "/home/jovyan/anurov/full pipe/crop container/labelling/test_script/labels/labels" # путь к лейблам
+  model_path: "/home/jovyan/anurov/full pipe/crop container/weights/segmentation_model/best_detector.pt" # путь к модели
+  output: "/home/jovyan/anurov/full pipe/crop container/labelling/test_script/annotation.json" # путь к выходному файлу
+
+label_studio:
+  images_prefix: "AM_Business_metric_eval/images" #префикс для изображений в Label Studio
