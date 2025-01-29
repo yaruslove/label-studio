@@ -10,11 +10,15 @@ pip install ultralytics pillow pyyaml
 paths:
   image_dir: "/путь/к/изображениям"
   labels_dir: "/путь/к/yolo/разметке"
-  model_path: "/путь/к/модели.pt"
+  model_path: "/путь/к/модели.pt"  # опционально
   output: "/путь/для/сохранения/tasks.json"
 
 label_studio:
   images_prefix: "prefix/path/in/labelstudio"
+
+class_names: # опционально
+  0: front_bach # название класса в Label Studio
+  1: background_batch # название класса в Label Studio
 ```
 
 3. Запустите скрипт:

@@ -8,7 +8,23 @@ from ultralytics import YOLO
 def load_config(config_path):
     """Загрузка конфигурации из YAML файла"""
     with open(config_path, 'r') as f:
-        return yaml.safe_load(f)
+        config = yaml.safe_load(f)
+    # Проверяем наличие словаря классов в конфиге
+    if 'class_names' not in config:
+        config['class_names'] = None
+    return config
+    
+def get_classes_from_labels(labels_dir):
+    """Получение списка классов из файлов разметки YOLO"""
+    classes = set()
+    for label_file in os.listdir(labels_dir):
+        if not label_file.endswith('.txt'):
+            continue
+        with open(os.path.join(labels_dir, label_file), 'r') as f:
+            for line in f:
+                class_id = int(float(line.strip().split()[0]))
+                classes.add(class_id)
+    return {i: f"class_{i}" for i in sorted(classes)}
 
 def yolo_to_labelstudio(image_base, labels_dir, images_prefix, class_names):
     """
@@ -113,10 +129,25 @@ def main():
     args = parser.parse_args()
     config = load_config(args.config)
     
-    print("Загрузка модели YOLO...")
-    model = YOLO(config['paths']['model_path'])
-    class_names = model.names
-    print(f"Загружены классы: {class_names}")
+    # Определяем классы в порядке приоритета:
+    # 1. Из модели YOLO (если есть)
+    # 2. Из конфига (если определены)
+    # 3. Автоматически из файлов разметки
+    try:
+        print("Загрузка модели YOLO...")
+        model = YOLO(config['paths']['model_path'])
+        class_names = model.names
+        print(f"Загружены классы из модели: {class_names}")
+    except Exception as e:
+        print(f"Не удалось загрузить модель YOLO: {e}")
+        if config['class_names']:
+            print("Используются классы из конфигурационного файла")
+            class_names = config['class_names']
+            print(f"Загруженные классы: {class_names}")
+        else:
+            print("Получение классов из файлов разметки...")
+            class_names = get_classes_from_labels(config['paths']['labels_dir'])
+            print(f"Получены классы из разметки: {class_names}")
     
     print("\nНачало конвертации...")
     tasks = yolo_to_labelstudio(
