@@ -55,6 +55,8 @@ class YoloSeg2LabelStudio:
                 val_crop=(fnz,lnz)
             
 
+            if result.masks == None:
+                continue
             amount_masks=len(result.masks.data)
 
             for idx_mask, cls in zip(range(amount_masks), result.boxes.cls):

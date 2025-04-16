@@ -1,6 +1,7 @@
-labelst_part_path: "/data/local-files/?d=data/001_raw_data/001_video_data/002_GO_PRO_SBER_20231101_ALL/selected_imgs/"
-pth_imgs: "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/001_data/005_Разметка/001_Pool_detect_leaf_Сбер/002_Gelya_Olga_detection_26_09_24/tomato_2_Gelya"
+labelst_part_path: "/fanxiangssd/yaroslav/projects/002_green_data/004_leaves_seg/labeling/004_022_photo/LS_jsons/1_Zdorovyi/labels"
+pth_imgs: "/fanxiangssd/yaroslav/projects/002_green_data/004_leaves_seg/labeling/004_022_photo/003_022_002_labelled_26_10_24/1_Zdorovyi"
 
 # weight_model: "/Users/YaVolkonskiy/Documents/Projects/tomato/data/002_data_experiments/002_train_leaf_tomato/10_11_2023/best_leaf.pt"
-weight_model : "/Users/YaVolkonskiy/Documents/001_Projects/003_tomato/002_train_models/003_train_leaf_tomat_det_seg/002_train_results/weights/best.pt"
-file_label_studio: 'project_label_studio.json'
+weight_model : "/fanxiangssd/yaroslav/projects/002_green_data/004_leaves_seg/001_train/001_exp/results/train2/weights/best.pt"
+
+file_label_studio: "/fanxiangssd/yaroslav/projects/002_green_data/004_leaves_seg/labeling/004_022_photo/LS_jsons/1_Zdorovyi/1_Zdorovyi.json"
